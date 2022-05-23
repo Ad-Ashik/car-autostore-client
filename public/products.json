@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "CARLISLE HD FIELD TRAX ATV TIRE",
+        "description": "Blended tread pattern for self-cleaning and traction Wide footprint for hard surfaces Intermediate to hard surfaces",
+        "minimum": "1800",
+        "available": "15,000",
+        "price": "420",
+        "img": "https://i.ibb.co/4tVwT77/carlisle-hd-field-trax-atv-tire-3.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "CHEVY SILVERADO TAHOE GMC",
+        "description": "Buy 22 Inch Fits Chevy Silverado Tahoe GMC Sierra Yukon Cadillac Escalade CV98 Chrome with Gloss Black 22x9.5",
+        "minimum": "1450",
+        "available": "12,000",
+        "price": "390",
+        "img": "https://i.ibb.co/cgJtcm2/chevy-silverado-tahoe-gmc-4.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "HANKOOK DYNAPRO OFF-ROAD",
+        "description": "The DynaPro ATM is a premium aggressive all-terrain for light truck, van, and sport utility vehicles. ",
+        "minimum": "1800",
+        "available": "18,900",
+        "price": "680",
+        "img": "https://i.ibb.co/9ch4bWM/hankook-dynapro-off-road.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "BLUETOOTH V4.2 RADIO ADAPTER",
+        "description": "Possibly the latest, fastest and most efficient USB charging technology in the world. Up to 4X faster.",
+        "minimum": "3200",
+        "available": "25,300",
+        "price": "190",
+        "img": "https://i.ibb.co/vzTcdT4/bluetooth-v4-2-radio-adapter-1.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "CAR KIT HANDS FREE CALLING",
+        "description": "Bluetooth receiver allows you to wirelessly stream audio from your Bluetooth enabled devices to your existing.",
+        "minimum": "2700",
+        "available": "20,900",
+        "price": "210",
+        "img": "https://i.ibb.co/xLMqCJx/car-kit-hands-free-calling-2.jpg"
+    },
+    {
+        "_id": 6,
+        "name": "RADIO TRANSMITTER ADAPTER",
+        "description": "Built-in memory feature that saves your last played (frequency, song and volume) setting  as cell phones and MP3 players.",
+        "minimum": "2500",
+        "available": "28,500",
+        "price": "250",
+        "img": "https://i.ibb.co/3v9vH8F/radio-transmitter-adapter.jpg"
+    }
+]
