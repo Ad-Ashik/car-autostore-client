@@ -39,9 +39,9 @@ const Login = () => {
                 }
             </div>
             <div className='flex justify-center items-center h-screen'>
-                <div class="card w-96 bg-base-100 shadow-xl">
-                    <div class="card-body">
-                        <h2 class="card-title text-center block">Login</h2>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <div className="card-body">
+                        <h2 className="card-title text-center block">Login</h2>
 
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div className="form-control w-full max-w-xs">

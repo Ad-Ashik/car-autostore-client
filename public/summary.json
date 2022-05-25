@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "img": "https://i.ibb.co/6Z0rmGt/icon-10.png",
+        "number": "1436",
+        "text": "Types of Autostore"
+    },
+    {
+        "_id": 2,
+        "img": "https://i.ibb.co/9t7DNN3/icon-11.png",
+        "number": "29",
+        "text": "Distributor"
+    },
+    {
+        "_id": 1,
+        "img": "https://i.ibb.co/RTffgt1/icon-12.png",
+        "number": "1758",
+        "text": "Trust Customers"
+    },
+    {
+        "_id": 1,
+        "img": "https://i.ibb.co/F0Nqg07/icon-13.png",
+        "number": "16",
+        "text": "Autostore Certificate"
+    }
+]
