@@ -29,7 +29,7 @@ function App() {
             <DashBoard></DashBoard>
           </RequireAuth>
         }></Route>
-        <Route path='review' element={<Review></Review>}></Route>
+        <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
