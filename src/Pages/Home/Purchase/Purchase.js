@@ -5,7 +5,7 @@ import auth from '../../../firebase.init';
 
 const Purchase = () => {
     const [user] = useAuthState(auth);
-    const { register, formState: { errors }, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm();
 
     const onSubmit = data => {
         console.log(data);

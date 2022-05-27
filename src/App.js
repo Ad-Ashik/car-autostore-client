@@ -7,6 +7,8 @@ import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Navbar/Navbar';
+import DashBoard from './Pages/DashBoard/DashBoard';
+import Review from './Pages/DashBoard/Review';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
             <Purchase></Purchase>
           </RequireAuth>
         }></Route>
+        <Route path='/dashboard' element={
+          <RequireAuth>
+            <DashBoard></DashBoard>
+          </RequireAuth>
+        }></Route>
+        <Route path='review' element={<Review></Review>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>

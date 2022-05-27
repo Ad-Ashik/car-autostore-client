@@ -76,13 +76,18 @@ const Navbar = () => {
                         </div>
                     </label>
                     <ul tabIndex="0" className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-                        <li>
-                            <Link to="" className="justify-between">
-                                Profile
-                                <span className="badge">New</span>
-                            </Link>
-                        </li>
-                        <li><Link to="">Settings</Link></li>
+                        {
+                            user ? <>
+                                <li>
+                                    <Link to="" className="justify-between">
+                                        Profile
+                                        <span className="badge">New</span>
+                                    </Link>
+                                </li>
+                                <li><Link to="">My Order</Link></li>
+                                <li><Link to="/review">Add Review</Link></li>
+                            </> : <li><Link to="/register">Sing Up</Link></li>
+                        }
                         <li>
                             {
                                 user ? <Link to="/" onClick={logOut}>Logout</Link> : <Link to="/login">Login</Link>
