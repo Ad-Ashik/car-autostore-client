@@ -12,11 +12,11 @@ const Reviews = () => {
         return <Lodaing></Lodaing>
     }
     return (
-        <div className='mb-20'>
+        <div className='mb-20 px-12'>
             <h2 className='text-center pb-10 text-2xl font-bold uppercase'>All Reviews</h2>
             <div className='grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
                 {
-                    reviews.slice(0, 6).map(show => <Show
+                    reviews.map(show => <Show
                         show={show}
                     ></Show>)
                 }

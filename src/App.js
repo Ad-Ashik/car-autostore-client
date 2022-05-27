@@ -11,6 +11,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Navbar/Navbar';
 import DashBoard from './Pages/DashBoard/DashBoard';
 import Review from './Pages/DashBoard/Review';
+import Reviews from './Pages/Home/Reviews/Reviews';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/products/:productId' element={
           <RequireAuth>
             <Purchase></Purchase>
