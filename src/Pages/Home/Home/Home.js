@@ -1,4 +1,5 @@
 import React from 'react';
+import ReviewShow from '../../DashBoard/ReviewShow';
 import AutoStore from '../AutoStore/AutoStore';
 import Banner from '../Banner/Banner';
 import Brands from '../Brands/Brands';
@@ -12,6 +13,7 @@ const Home = () => {
             <div className='px-12'><Products></Products></div>
             <div className='px-12'><AutoStore></AutoStore></div>
             <div className='px-12'><Summarys></Summarys></div>
+            <div className='px-12'><ReviewShow></ReviewShow></div>
             <div className='px-12'><Brands></Brands></div>
         </div>
     );
