@@ -15,7 +15,7 @@ const Review = () => {
             comment: e.target.comment.value,
             img: reviewImg
         }
-        fetch('http://localhost:5000/review', {
+        fetch('https://secret-inlet-23442.herokuapp.com/review', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

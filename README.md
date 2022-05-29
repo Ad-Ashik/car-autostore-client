@@ -1,6 +1,6 @@
 # Auto Store Car Parts
 
-## Live Link- [Auto Store](https://bicycle-warehouse-f2360.web.app/)
+## Live Link- [Auto Store](https://car-autostore.web.app/)
 
 ## Available features and functionality
 * Login/Register header section added and click switch.
@@ -31,3 +31,4 @@
 * git push heroku main  
 * npm run build  
 * firebase deploy 
+
