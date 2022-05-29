@@ -27,7 +27,7 @@ const MyPortfolio = () => {
                         <h2 className='text-xl mb-3'>Other Live Site Link:</h2>
                         <Link to="https://bicycle-warehouse-f2360.web.app/" className='uppercase font-bold hover:underline'>bicycle warehouse, </Link>
                         <Link to="https://immigration-visa-consultant.web.app/" className='uppercase font-bold hover:underline'>Immigration Visa, </Link>
-                        <Link to="https://bicycle-warehouse-f2360.web.app/" className='uppercase font-bold hover:underline'>gaming reviews</Link>
+                        <Link to="https://gaming-reviews-site.netlify.app/" className='uppercase font-bold hover:underline'>gaming reviews</Link>
                     </div>
                 </div>
             </div>
