@@ -16,6 +16,7 @@ import MyPortfolio from './Pages/MyPortfolio/MyPortfolio';
 import Products from './Pages/Home/Products/Products';
 import Summarys from './Pages/Home/Summarys/Summarys';
 import Contact from './Pages/Contact/Contact';
+import Blogs from './Pages/Blogs/Blogs/Blogs';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/products/:productId' element={
           <RequireAuth>
             <Purchase></Purchase>
