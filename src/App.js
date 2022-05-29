@@ -17,6 +17,7 @@ import Products from './Pages/Home/Products/Products';
 import Summarys from './Pages/Home/Summarys/Summarys';
 import Contact from './Pages/Contact/Contact';
 import Blogs from './Pages/Blogs/Blogs/Blogs';
+import Page404 from './Pages/Shared/Page404/Page404';
 
 function App() {
   return (
@@ -44,8 +45,10 @@ function App() {
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='*' element={<Page404></Page404>}></Route>
       </Routes>
       <Footer></Footer>
+
       <ToastContainer />
     </div>
   );
