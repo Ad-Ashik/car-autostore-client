@@ -36,15 +36,15 @@ const Review = () => {
 
     return (
         <div className='flex justify-center items-center h-screen'>
-            <div class="card w-96 bg-base-100 shadow-xl p-6">
-                <h2 class="card-title text-center block mt-3">Add your Positive Review</h2>
+            <div className="card w-96 bg-base-100 shadow-xl p-6">
+                <h2 className="card-title text-center block mt-3">Add your Positive Review</h2>
                 <div>
                     <form onSubmit={addReview}>
-                        <input type="text" name='name' placeholder="Name" class="input input-bordered w-full max-w-full my-5" />
-                        <input type="text" name='title' placeholder="Title" class="input input-bordered w-full max-w-full " />
-                        <input type="number" name='review' maxLength="5" placeholder="Please Rating" class="input input-bordered w-full max-w-full my-5" />
-                        <textarea name='comment' class="textarea textarea-bordered w-full max-w-full" placeholder="Your comment"></textarea>
-                        <input type="submit" value="Add Review" class="btn w-full max-w-full mt-3" />
+                        <input type="text" name='name' placeholder="Name" className="input input-bordered w-full max-w-full my-5" />
+                        <input type="text" name='title' placeholder="Title" className="input input-bordered w-full max-w-full " />
+                        <input type="number" name='review' maxLength="5" placeholder="Please Rating" className="input input-bordered w-full max-w-full my-5" />
+                        <textarea name='comment' className="textarea textarea-bordered w-full max-w-full" placeholder="Your comment"></textarea>
+                        <input type="submit" value="Add Review" className="btn w-full max-w-full mt-3" />
                     </form>
                 </div>
             </div>

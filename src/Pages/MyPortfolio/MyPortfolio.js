@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const MyPortfolio = () => {
     return (
         <div className='flex justify-center mx-auto p-12'>
-            <div class="card lg:card-side bg-base-100 shadow-xl flex-1 ">
+            <div className="card lg:card-side bg-base-100 shadow-xl flex-1 ">
                 <figure><img className='w-96' src="https://i.ibb.co/Kwh3f3g/Ashik-64d88be03e0816669a95.jpg" alt="Album" /></figure>
-                <div class="card-body flex-1 ">
-                    {/* <h2 class="">My Goal</h2>
+                <div className="card-body flex-1 ">
+                    {/* <h2 className="">My Goal</h2>
                     <p>আমি গত (চার-পাচ) বছর ধরে একজন web-developer হতে চাইছিলাম। মধ্যবিত্ত জীবনটাকে web-developer এর আদলে সুন্দর করতে চেয়েছি। অনেক গুলো স্বপ্ন ঘিরে রয়েছে এই developing নিয়ে। তার একটাও পূরণ হয়নি এখনো। তবে হ্যা, আমি current year এর মধ্যে কোন একটা web-developer company তে job করতে চাই। এটাই এখন আমার লক্ষ্য। </p> */}
                     <div className='leading-10'>
                         <p className='text-center font-bold text-xl'>My information</p>

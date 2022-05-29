@@ -17,6 +17,7 @@ const Reviews = () => {
             <div className='grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
                 {
                     reviews.map(show => <Show
+                        key={show._id}
                         show={show}
                     ></Show>)
                 }

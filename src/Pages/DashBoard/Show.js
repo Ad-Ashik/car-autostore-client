@@ -47,22 +47,22 @@ const Show = ({ show }) => {
     }
 
     return (
-        <div class="card bg-base-100 shadow-xl">
-            <div class="stat flex">
-                <div class="text-secondary">
-                    <div class="avatar">
-                        <div class="w-16 rounded-full">
+        <div className="card bg-base-100 shadow-xl">
+            <div className="stat flex">
+                <div className="text-secondary">
+                    <div className="avatar">
+                        <div className="w-16 rounded-full">
                             <img src={img} alt='' />
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="text-xl font-bold">{name}</div>
-                    <div class="stat-desc text-secondary">{title}</div>
+                    <div className="text-xl font-bold">{name}</div>
+                    <div className="stat-desc text-secondary">{title}</div>
                 </div>
             </div>
-            <div class="card-body" style={{ marginTop: "-35px" }}>
-                <h2 class="card-title">{showText}</h2>
+            <div className="card-body" style={{ marginTop: "-35px" }}>
+                <h2 className="card-title">{showText}</h2>
                 <p>{comment}</p>
             </div>
         </div>
